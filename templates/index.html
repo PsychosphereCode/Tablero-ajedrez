@@ -15,9 +15,9 @@
                 <tr>
                     {% for y in range(0,columna) %}
                         {% if (y+o) % 2 == 0 %}    <!--suma la posicion de las celdas del tablero en columa y pinta de manera intercalada cada celda -->
-                            <td style="background-color: {{color_uno}};"></td>
+                            <td style="background-color: {{color_uno}}"></td>
                         {% else %}
-                            <td style="background-color: {{color_dos}};"></td>
+                            <td style="background-color: {{color_dos}}"></td>
                         {%  endif %}
                     {% endfor %}
                 </tr>
